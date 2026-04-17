@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { font-family: sans-serif; padding: 16px; width: 220px; }
+    label { display: block; margin-bottom: 8px; font-size: 14px; }
+    input[type=range] { width: 100%; }
+    #value { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <label>Chance de substituição: <span id="value">50</span>%</label>
+  <input type="range" id="chance" min="0" max="100" value="50">
+  <script src="popup.js"></script>
+</body>
+</html>
